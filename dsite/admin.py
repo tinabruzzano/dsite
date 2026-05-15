@@ -1,1 +1,1 @@
-
+from .adminsite import register
