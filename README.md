@@ -5,7 +5,8 @@
 DSite è un framework web moderno scritto in Python che permette di creare siti web usando XML dinamico, Views Python e un potente sistema di Pages.
 
 [Installa](https://raw.githubusercontent.com/DeMENIGECO/dsite-project/main/it/1.0.0/downloader/download_dsite_1.0.0.py) - 
-[Documentazione](https://demenigeco.github.io/dsite-project/it/1.0.0/docs/)
+[Documentazione](https://demenigeco.github.io/dsite-project/it/1.0.0/docs/) -
+[![PyPI version](https://img.shields.io/pypi/v/dsite.svg)](https://pypi.org/project/dsite/)
 
 ---
 
