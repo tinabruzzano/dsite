@@ -28,9 +28,9 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://demenigeco.github.io/dsite-projects/"
-Repository = "https://github.com/DeMENIGECO/dsite-project"
-Issues = "https://github.com/DeMENIGECO/dsite-project/issues"
+Homepage = "https://demenigeco.github.io/dsite-project/"
+Repository = "https://github.com/DeMENIGECO/dsite"
+Issues = "https://github.com/DeMENIGECO/dsite/issues"
 
 [project.scripts]
 dsite = "dsite.cli:main"
