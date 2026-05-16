@@ -242,6 +242,20 @@ Contributi, idee e feedback sono benvenuti!
 
 ---
 
+# Attenzione!
+DSite è attualmente in fase di sviluppo attivo.
+
+⚠️ Versione 1.0.0 = Alpha Release
+
+Questo framework:
+- è funzionante
+- è utilizzabile per progetti semplici o educativi
+- NON è ancora ottimizzato per produzione
+
+Alcune parti (AdminSite, Migrations, sicurezza avanzata) sono ancora in sviluppo.
+
+---
+
 # 🔥 DSite
 
 ### Build websites with Python and XML.
