@@ -73,7 +73,7 @@ body:
       label: 🐍 Versione Python
       placeholder: "3.11"
     validations:
-      required: false
+      required: true
 
   - type: textarea
     id: extra
