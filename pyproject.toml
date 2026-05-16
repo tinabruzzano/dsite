@@ -34,4 +34,4 @@ Issues = "https://github.com/DeMENIGECO/dsite/issues"
 
 [project.scripts]
 dsite = "dsite.cli:main"
-dsite-admin = "dsite.admin.cli:main"
+dsite-admin = "dsite.admin_cli:main"
