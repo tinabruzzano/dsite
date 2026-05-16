@@ -1,0 +1,87 @@
+name: 💥 Crash Report
+description: Segnala un crash di DSite (errore grave o blocco)
+title: "[CRASH] "
+labels: ["crash"]
+body:
+
+  - type: markdown
+    attributes:
+      value: |
+        🚨 DSite ha avuto un crash?  
+        Aiutaci a risolverlo descrivendo cosa è successo.
+
+  - type: input
+    id: summary
+    attributes:
+      label: 📌 Riassunto del crash
+      description: Descrivi brevemente cosa è successo
+      placeholder: "Esempio: il server si chiude appena avvio runserver"
+    validations:
+      required: true
+
+  - type: textarea
+    id: when
+    attributes:
+      label: ⏱️ Quando succede il crash?
+      description: In quale situazione avviene?
+      placeholder: |
+        - avvio server
+        - caricamento pagina
+        - esecuzione form
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 🔁 Come riprodurre il crash
+      description: Scrivi i passaggi precisi
+      placeholder: |
+        1. creo progetto
+        2. entro nella cartella
+        3. eseguo runserver
+        4. crash
+    validations:
+      required: true
+
+  - type: textarea
+    id: error
+    attributes:
+      label: ❌ Messaggio di errore
+      description: Incolla tutto l'errore del terminale
+      render: shell
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: 📦 Versione DSite
+      placeholder: "1.0.0"
+    validations:
+      required: true
+
+  - type: input
+    id: python
+    attributes:
+      label: 🐍 Versione Python
+      placeholder: "3.11"
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: 💻 Sistema operativo
+      description: Dove stai usando DSite?
+      placeholder: "Windows 11 / Linux / Mac / Android (Termux)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: 🧩 Info extra
+      description: Qualsiasi altra informazione utile
+    validations:
+      required: false
