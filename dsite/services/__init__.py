@@ -17,10 +17,10 @@ builtin_services = [
   #Di Dsite.services
   "dsite.services",
   "dsite.services.management",
-  "dsite.services.index"
+  "dsite.services.index",
 
   #Altro
-  "dsite.admin"
+  "dsite.admin",
   "dsite.adminsite",
   "dsite.db",
   "dsite.forms",
