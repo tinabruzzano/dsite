@@ -3,7 +3,7 @@ builtin_services = [
   "dsite",
   
   #di DSite.http
-  "dsite.http"
+  "dsite.http",
   "dsite.http.request",
   "dsite.http.response",
   "dsite.http.router",
