@@ -1,0 +1,4 @@
+Cambiato:
+
+- dsite/management/migrations.py
+Aggiunto sistema di migrazioni con .tar.gz
